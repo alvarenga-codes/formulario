@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600&display=swap" rel="stylesheet">
+    <title>Formulário Simples</title>
+</head>
+<body>
+    <form class="form-container" action="form2.html" method="GET">
+        <h1>Formulário Simples</h1>
+        <p class="instrucao">Esse é um formulário simples. Para alterá-lo, experimente clicar no botão abaixo...</p>
+        <p>
+            <label for="InName">Nome</label>
+            <input class="name" type="text" name="InName" id="InName" placeholder="Digite seu nome">
+        </p>
+        <p>
+            <label for="InEmail">Email</label>
+            <input class="email" type="email" name="InEmail" id="InEmail" placeholder="Digite seu e-mail completo">
+        </p>
+        <p>
+            <label for="textoIn">Mensagem</label>
+            <textarea class="areaTexto" name="textoIn" id="textoIn" placeholder="Escreva sua mensagem aqui"></textarea>
+        </p>
+        <button type="submit" class="btEnviar">Enviar</button>
+    </form>
+</body>
+</html>
